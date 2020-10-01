@@ -7,8 +7,13 @@ import org.junit.jupiter.api.Test;
 class BodyMassIndexTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testGetBmi() {
+		System.out.println("This calculates BMI");
+	}
+
+	@Test
+	void testGetCategory() {
+		System.out.println(BodyMassIndex.Category);
 	}
 
 }
