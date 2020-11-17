@@ -34,7 +34,7 @@ public class App {
                     break;
                 default:
                     System.out.println("Invalid Selection");
-            } 
-        	}
-    		}
-			}
+} 
+}
+}
+}

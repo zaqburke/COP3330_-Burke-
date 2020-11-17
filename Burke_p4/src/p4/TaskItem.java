@@ -44,8 +44,8 @@ public class TaskItem {
 	    }
 	    public String toStringFile() {
 	        return name + "\n" + description + "\n" + "" + duedate + "\n" + isCompleted;
-	    }
-		}
+}
+}
 	   
 
 	    

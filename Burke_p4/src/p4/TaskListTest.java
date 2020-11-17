@@ -220,5 +220,5 @@ class TaskListTest {
 	        TaskItem newItem = new TaskItem("", "2050-08-23", "Task Description", false);
 	        list.taskList.add(newItem);
 	        assertThrows(IndexOutOfBoundsException.class, () -> {list.taskList.get(1).getName();});
-}
-}
+	    }
+	}
