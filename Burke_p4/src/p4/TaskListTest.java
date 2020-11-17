@@ -162,6 +162,7 @@ class TaskListTest {
 	    void savedTaskListCanBeLoaded(){
 	        new TaskList();
 	        File listFile = new File("D:\\School/output.txt");
+	        /* This is an actual file that onmy pc that I used to test a txt file */
 	        assertTrue(listFile.exists());
 	    }
 	    @Test

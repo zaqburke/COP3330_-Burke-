@@ -325,7 +325,7 @@ public class TaskList extends App {
         System.out.println("Successfully saved the current task list.");
     }
     public void loadFile(File listFile){
-/* Having problems getting this to work in the application, but my junit test runs fine for it, where did I go wrong here? Is the issue in savefile or loadFile? */
+/* Let me know if you are able to load a saved list, I initially could not get the save and load functions to actually work in the app, I could only get it to work in the junit test cases. I believe I was able to fix this issue, but I am curious if it works on other computers. */
     	boolean Complete;
         int listSize;
     	String taskName;

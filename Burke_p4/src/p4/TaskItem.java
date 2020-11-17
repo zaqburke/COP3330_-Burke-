@@ -2,11 +2,10 @@ package p4;
 
 public class TaskItem {
 	 private String name;
-	    private String duedate;
-	    private String description;
-	    private boolean isCompleted = false;
-
-	    public TaskItem(String userName, String userDueDate, String userDescription, boolean completion) {
+	 private String duedate;
+	 private String description;
+	 private boolean isCompleted = false;
+	 public TaskItem(String userName, String userDueDate, String userDescription, boolean completion) {
 	        this.name = userName;
 	        this.duedate = userDueDate;
 	        this.description = userDescription;

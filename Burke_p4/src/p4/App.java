@@ -6,14 +6,14 @@ public class App {
         Scanner input = new Scanner(System.in);
         int mainmenu = 1;
         while(mainmenu != 3){
-            System.out.println("Main Menu");
-            System.out.println("---------");
-            System.out.println("         ");
-            System.out.println("1) create a new list");
-            System.out.println("2) load an existing list");
-            System.out.println("3) quit");
-            System.out.print(">");
-            mainmenu = input.nextInt();
+          System.out.println("Main Menu");
+          System.out.println("---------");
+          System.out.println("         ");
+          System.out.println("1) create a new list");
+          System.out.println("2) load an existing list");
+          System.out.println("3) quit");
+          System.out.print(">");
+          mainmenu = input.nextInt();
             switch(mainmenu){
                 case 1:
                     System.out.println("A new task list has been created!");
